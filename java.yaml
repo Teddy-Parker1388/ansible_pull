@@ -1,1 +1,9 @@
-
+- name: Installation of Java
+  hosts: remote
+  become: true
+  tasks: 
+    - name: Install Java
+      apt: 
+        name: default-jre
+        update_cache: true
+        state: present
