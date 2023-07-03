@@ -1,5 +1,5 @@
 - name: Installation of Java
-  hosts: remote
+  hosts: remote_server
   become: true
   tasks: 
     - name: Install Java
