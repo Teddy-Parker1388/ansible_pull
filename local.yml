@@ -1,5 +1,5 @@
 - name: Play test
-  hosts: localhost
+  hosts: all
   tasks:
     - name: Debug Something
       debug:
