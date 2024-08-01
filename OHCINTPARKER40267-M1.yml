@@ -1,5 +1,5 @@
 - name: Play test
-  hosts: OHCINTPARKER40267-M1
+  hosts: all
   tasks:
     - name: Debug Something
       debug:
