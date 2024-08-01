@@ -1,5 +1,5 @@
 - name: Play test
-  hosts: all
+  #hosts: all
   tasks:
     - name: Debug Something
       debug:
