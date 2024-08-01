@@ -1,0 +1,7 @@
+---
+- name: Play test
+  hosts: localhost
+  tasks:
+    - name: Debug Something
+      debug:
+        msg: "Testing Ansible Pull"
